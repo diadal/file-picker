@@ -47,12 +47,9 @@ watch(files, async () => {
   <div class="row text-center">
    <FileSelector v-model="files" accept="image/*" :allowMultiple="false">
             <PickerButton>
-              <q-btn
-                label="Change Logo"
-                class="text-capitalize"
-                rounded
-                style="max-width: 120px"
-              ></q-btn>
+              <button>
+              Change Logo
+              </button>
             </PickerButton>
           </FileSelector>
   </div>
