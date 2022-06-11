@@ -1,6 +1,6 @@
 {
   "name": "@diadal/file-picker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple File Picker library for Vue3",
   "main": "src/index.ts",
   "module": "src/index.ts",
