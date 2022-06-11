@@ -1,0 +1,54 @@
+{
+  "name": "@diadal/file-picker",
+  "version": "0.0.1",
+  "description": "Simple File Picker library for Vue3",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "unpkg": "src/index.ts",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build": "webpack --mode=production --config webpack.config.build.js",
+    "build:dev": "webpack --mode=development --config webpack.config.build.js"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "vue3",
+    "file picker"
+  ],
+  "author": {
+    "name": "diadal",
+    "email": "info@diadal.com.ng",
+    "url": "https://diadal.com.ng"
+  },
+  "private": false,
+  "repository": "git:https://github.com/diadal/file-picker.git",
+  "license": "MIT",
+  "tags": [
+    "vue3",
+    "vue.js",
+    "file picker"
+  ],
+  "bugs": {
+    "url": "https://github.com/diadal/file-picker/issues"
+  },
+  "homepage": "https://github.com/diadal/file-picker",
+  "dependencies": {
+    "path": "^0.12.7",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.1",
+    "css-loader": "^6.7.1",
+    "eslint-plugin-ts": "^1.0.0",
+    "ts-loader": "^9.2.6",
+    "vue-loader": "^17.0.0",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "^2.6.14",
+    "webpack-cli": "^4.5.0"
+  }
+}
