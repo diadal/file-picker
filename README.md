@@ -16,8 +16,6 @@
 ```bash
 npm install @diadal/file-picker
 ```
-`Vue2 Example` (https://github.com/diadal/file-picker-test-vu2)
-
 
 ## Usage
 
