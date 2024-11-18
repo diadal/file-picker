@@ -3,7 +3,7 @@ import { provide, ref } from "vue";
 
 interface Pros {
   modelValue: string[];
-  allowMultiple: Boolean | undefined;
+  allowMultiple: any;
   accept: string | undefined;
 }
 
