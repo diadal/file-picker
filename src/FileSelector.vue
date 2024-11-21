@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import { provide, ref } from "vue";
 
+type Booleanish = boolean | "true" | "false";
+
 interface Pros {
   modelValue: string[];
-  allowMultiple: any;
+  allowMultiple: Booleanish | undefined;
   accept: string | undefined;
 }
 
