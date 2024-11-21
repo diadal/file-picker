@@ -5,7 +5,7 @@ type Booleanish = boolean | "true" | "false";
 
 interface Pros {
   modelValue: string[];
-  allowMultiple: Booleanish | undefined;
+  allowMultiple: Booleanish;
   accept: string | undefined;
 }
 
