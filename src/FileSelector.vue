@@ -6,7 +6,7 @@ type Booleanish = boolean | "true" | "false";
 interface Pros {
   modelValue: string[];
   allowMultiple: Booleanish;
-  accept: string | undefined;
+  accept: string;
 }
 
 // emits: ["update:modelValue"];
